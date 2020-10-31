@@ -1,0 +1,148 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>张颜齐说 | Gridea</title>
+<link rel="shortcut icon" href="https://Grideashuhan.github.io//favicon.ico?v=1604123165578">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Grideashuhan.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="张颜齐说 | Gridea - Atom Feed" href="https://Grideashuhan.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="张颜齐说，我不努力，不仅仅是对我自己不负责任，更是对喜欢的偶像不负责任，做一个偷懒的人每天对着喜欢的偶像喊我爱你我爱你并不是真的爱他，但努力且自律的人或许会有一天以平等的平台见到他，成为朋友。
+被一个人吸引不一定要靠近，就像两颗星星，太近了..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Grideashuhan.github.io/">
+  <img class="avatar" src="https://Grideashuhan.github.io//images/avatar.png?v=1604123165578" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              张颜齐说
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-06-08
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>张颜齐说，我不努力，不仅仅是对我自己不负责任，更是对喜欢的偶像不负责任，做一个偷懒的人每天对着喜欢的偶像喊我爱你我爱你并不是真的爱他，但努力且自律的人或许会有一天以平等的平台见到他，成为朋友。<img src="https://Grideashuhan.github.io//post-images/1599977283897.jpg" alt="" loading="lazy"></p>
+<p>被一个人吸引不一定要靠近，就像两颗星星，太近了就碎了。 如果你想让你爱的人注意到你，你就努力发光，你要和他一起发光，努力点燃整个宇宙。</p>
+<p>If you are attracted to someone, you don't need to get close to him. It just like two stars--if they are too close to each other, they will collide. If you want to be noticed by your lover, you should try your best to shine, and you should shine with your lover to bright up the whole universe.</p>
+<p>你可以渺小，但是你不能接受自己的渺小。 每个人都是从默默无闻开始的，每个人一开始起步的时候都是什么都没有，但是你一定要相信自己总有可以变成星光的那一刻，散发自己的光芒。</p>
+<p>你的心决定了你的高度<br>
+your heart decide your height.</p>
+<p>唯有当我们跳脱出自己的圆圈，从别人的角度看待类似的人生经历，才发现问题并不是只有一个 标准答案。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://Grideashuhan.github.io/post/yu-yan-shi-jian/">
+              <h3 class="post-title">
+                My student&#39;s homework
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://Grideashuhan.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

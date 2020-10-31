@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SOME THING I LEARNED IN PACKAGING CLASS/4 | Gridea</title>
+<link rel="shortcut icon" href="https://Grideashuhan.github.io//favicon.ico?v=1604123165578">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Grideashuhan.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="SOME THING I LEARNED IN PACKAGING CLASS/4 | Gridea - Atom Feed" href="https://Grideashuhan.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="Reuse of packaging
+Reuse as a circular strategy
+What is reuse?
+Within the context of a circular economy, reusing a packa..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Grideashuhan.github.io/">
+  <img class="avatar" src="https://Grideashuhan.github.io//images/avatar.png?v=1604123165578" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              SOME THING I LEARNED IN PACKAGING CLASS/4
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-09-13
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>Reuse of packaging<br>
+Reuse as a circular strategy<br>
+What is reuse?<br>
+Within the context of a circular economy, reusing a packaging item means to use it again for the same purpose, in its original form and without significantly altering or enhancing it.<br>
+Repurposing a packaging item at home, for instance, to store other products or food, is not considered reuse.<br>
+Reusing a packaging item, rather than recycling it, preserves more of its embedded value in terms of energy, materials, labour and capital.<br>
+Reuse can be a good strategy for prolonging a packaging lifetime<br>
+Reuse as a Circular Strategy<br>
+Reuse can be applied as a circular packaging strategy in two ways:</p>
+<ol>
+<li>Consumers own the packaging and refill it with the desired product. They buy the packaging once and maintain and clean it themselves, buying new refills of the product that will be consumed while the packaging can be reused.</li>
+<li>The producer owns and fills the packaging, the consumer uses the product and returns the packaging. The producer has to collect the packaging, clean and maintain it and can sell a new product in a refilled packaging.<br>
+strategies can be applied in a business to consumer transaction, but also in the business to business market.<br>
+To make packaging reusable, usually investments need to be made.<br>
+When the packaging needs to be returned to the producer, more costs are added. costs are made in the reconditioning (cleaning and maintenance) of the packaging.<br>
+the overall costs and emissions are reduced by reusable packaging. Moreover, durable reusable packaging will improve product protection and reduce product damages.<br>
+Comparing Different Options<br>
+Life cycle analysis or assessment(LCA)<br>
+To compare two or more products (or packaging items) that fulfill the same function in a different way, a Functional Unit must be defined. This is the goal that must be reached with the use of packaging alternatives.<br>
+The next step is to create a Use Scenario for each alternative that leads to the achievement of this goal. This helps to find all the aspects that contribute to the total impact of the packaging on the environment over its life cycle.<br>
+System Boundaries are defined to limit the scope of the analysis. You have to consider to what extent something will impact the outcome of the analysis and how much effort it will take to incorporate it in the calculations.</li>
+</ol>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://Grideashuhan.github.io/post/sdvw/">
+              <h3 class="post-title">
+                SOME THING I LEARNED IN CLIMATE&amp;HEALTH CLASS/2
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://Grideashuhan.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

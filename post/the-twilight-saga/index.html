@@ -1,0 +1,151 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Twilight saga | Gridea</title>
+<link rel="shortcut icon" href="https://Grideashuhan.github.io//favicon.ico?v=1604123165578">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Grideashuhan.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="The Twilight saga | Gridea - Atom Feed" href="https://Grideashuhan.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="I have seen this serious of movies for a year.
+I m not a brave person, I think. I always refused to do any change, to ac..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Grideashuhan.github.io/">
+  <img class="avatar" src="https://Grideashuhan.github.io//images/avatar.png?v=1604123165578" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              The Twilight saga
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-05-08
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>I have seen this serious of movies for a year.<br>
+I m not a brave person, I think. I always refused to do any change, to accept some new things, to do something I like without consideration, or to express my emotion directly and clearly. hoever, bella taught me to do as many mistakes as I can, dovote myself to love someone or something.<br>
+I have always to be asked what i want to in the future.<br>
+Usually i could answer a standard procedure, about my dream, my goal, and my plan for next 5 years, 10 years ,even longer, and i would be pround of this.<br>
+But I found that this kind of planning limits me to the template after watching this movie. I want to experience many things I would like to in different fields. Thus I try to do somethings sounds inessential for achieving my goal, such as do the meida by my self, and write some songs about many different kinds of the theme. now when some one ask my plan about the future , I will say &quot;well, how about this, who the hell knows?&quot;<br>
+This isn't the time to make hard and fast decisions ,this is the time to make mistakes. Take the wrong train and get stuck somewhere. Fall in love, a lot.<br>
+Major in philosophy, because there's no way to make a career out of that.<br>
+Change your mind, and change again, because nothing is permanent.<br>
+So, make as many mistakes as you can. That way,someday, when they ask what we want to be, we don't have to guess, we'll know.<br>
+Thanks bella let me be brave without turning back.</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://Grideashuhan.github.io/post/something-i-leared-in-energy-class1/">
+              <h3 class="post-title">
+                SOMETHING I LEARED IN ENERGY CLASS/1
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://Grideashuhan.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

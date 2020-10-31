@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SOME THING I LEARNED IN CLIMATE&amp;HEALTH CLASS/4 | Gridea</title>
+<link rel="shortcut icon" href="https://Grideashuhan.github.io//favicon.ico?v=1604123165578">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Grideashuhan.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="SOME THING I LEARNED IN CLIMATE&amp;HEALTH CLASS/4 | Gridea - Atom Feed" href="https://Grideashuhan.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="Nutrition
+How good is nutrition around the world?
+Feast and Famine
+A New Era for Nutrition
+Higher carbon dioxide concent..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Grideashuhan.github.io/">
+  <img class="avatar" src="https://Grideashuhan.github.io//images/avatar.png?v=1604123165578" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              SOME THING I LEARNED IN CLIMATE&amp;HEALTH CLASS/4
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-10-29
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>Nutrition<br>
+How good is nutrition around the world?<br>
+Feast and Famine<br>
+A New Era for Nutrition<br>
+Higher carbon dioxide concentrations substantially reduce nutrients such as protein, vitamin A, and folate, which are already in short supply for hundreds of millions of people worldwide.<br>
+In the future, people having less and less access to some of wild foods.(carnivores, because of sustainable hunting).<br>
+Green house gas emissions—sea temperature will rise----ocean acidification will occur----fish populations will move further and further toward the poles.<br>
+People will have less and less access to seafood.<br>
+Populations at risk<br>
+Measuring bodyweight<br>
+Body mass index=weight in kg/(height in m)^2<br>
+Normal range: 18.5-24.9<br>
+Underweight people are common in Asia and Africa<br>
+Overweight people are more common across the rest of the world<br>
+The health effects of being underweight</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://Grideashuhan.github.io/post/srg/">
+              <h3 class="post-title">
+                 MY Costume designing/2
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://Grideashuhan.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
